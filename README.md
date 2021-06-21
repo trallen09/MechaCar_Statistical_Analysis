@@ -30,3 +30,6 @@ Ttest Lot 2
 
 Ttest Lot 3
 ![lotsummary](https://github.com/trallen09/MechaCar_Statistical_Analysis/blob/main/ttest3.png)
+
+
+All P-values are greater than .05 besides lot 2 which can be rejected. 
