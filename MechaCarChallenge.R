@@ -17,10 +17,12 @@ lot_summary
 
 ?t.test()
 t.test(Suspension_Coil_csv$PSI,mu=mean(Suspension_Coil_csv$PSI))
-testlot1 = t.test(subset(Suspension_Coil_csv$PSI,Suspension_Coil_csv$Manufacturing_Lot == "Lot1",mu=mean(Suspension_Coil_csv$PSI)))
-testlot2 = t.test(subset(Suspension_Coil_csv$PSI,Suspension_Coil_csv$Manufacturing_Lot == "Lot2",mu=mean(Suspension_Coil_csv$PSI)))
-testlot3 = t.test(subset(Suspension_Coil_csv$PSI,Suspension_Coil_csv$Manufacturing_Lot == "Lot3",mu=mean(Suspension_Coil_csv$PSI)))
+testlot1 = t.test(subset(Suspension_Coil_csv$PSI, Suspension_Coil_csv$Manufacturing_Lot == "Lot1"), mu=mean(Suspension_Coil_csv$PSI))
+testlot2 = t.test(subset(Suspension_Coil_csv$PSI, Suspension_Coil_csv$Manufacturing_Lot == "Lot2"), mu=mean(Suspension_Coil_csv$PSI))
+testlot3 = t.test(subset(Suspension_Coil_csv$PSI, Suspension_Coil_csv$Manufacturing_Lot == "Lot3"), mu=mean(Suspension_Coil_csv$PSI))
 
 testlot1
 testlot2
 testlot3
+
+
